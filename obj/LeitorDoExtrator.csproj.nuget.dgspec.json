@@ -1,0 +1,127 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\flavi\\source\\repos\\ParaLeituraSegundoProjeto\\LeitorDoExtrator\\LeitorDoExtrator.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\flavi\\source\\repos\\ParaLeituraSegundoProjeto\\BancoMarcasMongoDB\\BancoMarcasMongoDB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\flavi\\source\\repos\\ParaLeituraSegundoProjeto\\BancoMarcasMongoDB\\BancoMarcasMongoDB.csproj",
+        "projectName": "BancoMarcasMongoDB",
+        "projectPath": "C:\\Users\\flavi\\source\\repos\\ParaLeituraSegundoProjeto\\BancoMarcasMongoDB\\BancoMarcasMongoDB.csproj",
+        "packagesPath": "C:\\Users\\flavi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\flavi\\source\\repos\\ParaLeituraSegundoProjeto\\BancoMarcasMongoDB\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\flavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\flavi\\source\\repos\\ParaLeituraSegundoProjeto\\LeitorDoExtrator\\LeitorDoExtrator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\flavi\\source\\repos\\ParaLeituraSegundoProjeto\\LeitorDoExtrator\\LeitorDoExtrator.csproj",
+        "projectName": "LeitorDoExtrator",
+        "projectPath": "C:\\Users\\flavi\\source\\repos\\ParaLeituraSegundoProjeto\\LeitorDoExtrator\\LeitorDoExtrator.csproj",
+        "packagesPath": "C:\\Users\\flavi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\flavi\\source\\repos\\ParaLeituraSegundoProjeto\\LeitorDoExtrator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\flavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\flavi\\source\\repos\\ParaLeituraSegundoProjeto\\BancoMarcasMongoDB\\BancoMarcasMongoDB.csproj": {
+                "projectPath": "C:\\Users\\flavi\\source\\repos\\ParaLeituraSegundoProjeto\\BancoMarcasMongoDB\\BancoMarcasMongoDB.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
